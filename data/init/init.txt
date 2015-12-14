@@ -1,0 +1,83 @@
+Change this to turn sound off.
+
+[SOUND:ON]
+
+Change this to skip the wonderful intro movies.
+
+[INTRO:ON]
+
+This is the size and font for windowed mode.  Changing to 800x600 and the 800x600 font might make you happier.
+
+[WINDOWEDX:640]
+[WINDOWEDY:300]
+[FONT:curses_640x300.bmp]
+
+Full screen info.
+
+[FULLSCREENX:800]
+[FULLSCREENY:600]
+[FULLFONT:curses_800x600.bmp]
+
+If you don't like the ,.`' ground, try setting this to NO.  The ground will turn into periods only.
+
+[VARIED_GROUND_TILES:YES]
+
+If you turn this off, you'll see some atrocious 128 character mode crap.  I didn't try hard on the map for it, or at all.
+
+[EXTENDED_ASCII:YES]
+
+This controls "more" in adventure mode.  If MORE is set to NO, all announcements will be skipped.  DISPLAY_LENGTH controls how many lines are printed before it gives you the "more" prompt.
+
+[MORE:YES]
+[DISPLAY_LENGTH:23]
+
+These are the display colors in RGB.  The game is actually displaying extended ASCII characters in OpenGL, so you can modify the colors.
+
+[BLACK_R:0]
+[BLACK_G:0]
+[BLACK_B:0]
+[BLUE_R:0]
+[BLUE_G:0]
+[BLUE_B:128]
+[GREEN_R:0]
+[GREEN_G:128]
+[GREEN_B:0]
+[CYAN_R:0]
+[CYAN_G:128]
+[CYAN_B:128]
+[RED_R:128]
+[RED_G:0]
+[RED_B:0]
+[MAGENTA_R:128]
+[MAGENTA_G:0]
+[MAGENTA_B:128]
+[BROWN_R:128]
+[BROWN_G:128]
+[BROWN_B:0]
+[LGRAY_R:192]
+[LGRAY_G:192]
+[LGRAY_B:192]
+[DGRAY_R:128]
+[DGRAY_G:128]
+[DGRAY_B:128]
+[LBLUE_R:0]
+[LBLUE_G:0]
+[LBLUE_B:255]
+[LGREEN_R:0]
+[LGREEN_G:255]
+[LGREEN_B:0]
+[LCYAN_R:0]
+[LCYAN_G:255]
+[LCYAN_B:255]
+[LRED_R:255]
+[LRED_G:0]
+[LRED_B:0]
+[LMAGENTA_R:255]
+[LMAGENTA_G:0]
+[LMAGENTA_B:255]
+[YELLOW_R:255]
+[YELLOW_G:255]
+[YELLOW_B:0]
+[WHITE_R:255]
+[WHITE_G:255]
+[WHITE_B:255]
