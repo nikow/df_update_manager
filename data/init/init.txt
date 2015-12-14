@@ -1,60 +1,13 @@
-Change this to turn sound off.
-
-[SOUND:ON]
-
-Change this to skip the wonderful intro movies.
-
-[INTRO:ON]
-
-This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
-
-[WINDOWED:PROMPT]
-
-This is the size and font for windowed mode.  Changing to 800x600 and the 800x600 font might make you happier.
-
 [WINDOWEDX:640]
 [WINDOWEDY:300]
-[FONT:curses_640x300.bmp]
-
-Full screen info.
-
 [FULLSCREENX:800]
 [FULLSCREENY:600]
+[FONT:curses_640x300.bmp]
 [FULLFONT:curses_800x600.bmp]
-
-Change this to NO if you don't want to have the mouse involved at all.
-
-[MOUSE:YES]
-
-Change this to YES if you'd like to use a BMP for the mouse cursor.  The image currently lags when the game is lagging however.
-
-[MOUSE_PICTURE:NO]
-
-If you don't like the ,.`' ground, try setting this to NO.  The ground will turn into periods only.
-
 [VARIED_GROUND_TILES:YES]
-
-If you'd like your engravings to start off looking the same (you can toggle them on individual later), set this to YES.
-
-[ENGRAVINGS_START_OBSCURED:NO]
-
-This controls the number of milliseconds that must pass before a held key sends a repeat press to the game.  You might need to adjust this.
-
-[KEY_HOLD_MS:150]
-
-This controls "more" in adventure mode.  If MORE is set to NO, all announcements will be skipped.  DISPLAY_LENGTH controls how many lines are printed before it gives you the "more" prompt.
-
+[EXTENDED_ASCII:YES]
 [MORE:YES]
 [DISPLAY_LENGTH:23]
-
-You can use these to say how nicknames are displayed in each mode
-Options are REPLACE_FIRST, CENTRALIZE (between first and last), REPLACE_ALL
-[NICKNAME_DWARF:REPLACE_FIRST]
-[NICKNAME_ADVENTURE:REPLACE_FIRST]
-[NICKNAME_LEGENDS:REPLACE_FIRST]
-
-These are the display colors in RGB.  The game is actually displaying extended ASCII characters in OpenGL, so you can modify the colors.
-
 [BLACK_R:0]
 [BLACK_G:0]
 [BLACK_B:0]
