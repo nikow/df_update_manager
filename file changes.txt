@@ -1,0 +1,58 @@
+Auxiliary file changes for 0.21.104.19a:
+
+New keys
+[STORES_CHASM:C]
+[ORDERS_REFUSE_CHASM_CORPSE:C]
+[ORDERS_REFUSE_CHASM_SKIN:I]
+[ORDERS_REFUSE_CHASM_SKULL:L]
+
+******************************************************
+
+Auxiliary file changes for 0.21.102.19a:
+
+New init options
+[NICKNAME_DWARF:REPLACE_FIRST] -- these say how nicknames are handled
+[NICKNAME_ADVENTURE:REPLACE_FIRST]
+[NICKNAME_LEGENDS:REPLACE_FIRST]
+[WINDOWED:PROMPT] -- set if you want fullscreen/windowed mode
+
+New keys
+[A_STATUS_CUSTOMIZE:Y]
+[UNITVIEW_CUSTOMIZE:Y]
+[CUSTOMIZE_UNIT_NICKNAME:N]
+[CUSTOMIZE_UNIT_PROFNAME:P]
+[TOGGLE_FULLSCREEN:F11] -- toggle fullscreen/windowed mode
+
+Removed a few superfluous entries from interface.txt.
+
+******************************************************
+
+Auxiliary file changes for 0.21.101.19a:
+
+New init options
+[KEY_HELD_MS:150] -- controls how long a key must be held before it sends a repeat message
+
+New keys for alphabetic string entry
+[STRING_<x>:<x>] pretty much
+[A_ENTER_NAME:E]
+
+******************************************************
+
+Auxiliary file changes for 0.21.100.19a:
+
+New init options, and new help inside the file itself
+[SOUND:ON]
+[INTRO:ON]
+
+Added all of the display strings to the interface file.
+
+******************************************************
+
+Auxiliary file changes for 0.21.95.19c:
+
+New keys -- add/adjust these to any interface.txt files you are saving for yourself
+[BUILDJOB_FARM_FERTILIZE:F]
+[BUILDJOB_FARM_SEASFERT:S]
+
+Changed keys
+[CHANGE_BINDINGS:K]
