@@ -1,0 +1,23 @@
+Hi!  This is the very first Mac Port of Dwarf Fortress.  As such, it is even more experimental than DF itself, and you should use it with caution.  We're hoping to iron out issues that arise as DF progresses.
+
+Credit goes to Matthew Moss and eli for doing most of the work on the port!
+
+
+Known Mac-specific issues:
+
+Save files compatible between Intel/PPC is untested and likely doesn't work
+
+Game logic and screen refreshes have not yet been decoupled, so some parts of world generation in particular take a little longer (you'll see it count through individual numbers instead of skipping some).
+
+
+In general, DF may not behave like a proper Mac application since I'm unfamiliar with some of the standards.  Please drop by the forums with suggestions and bug reports!
+
+
+
+
+See readme.txt for the license.
+See release_notes.txt for information on handling saves and a brief writeup on the changes for this version.
+See file_changes.txt for new init/interface information.
+See command_line.txt for information on world generation from command lines.
+Go to http://www.bay12games.com/dwarves/faq.html for Frequently Asked Questions and their answers.
+Go to http://www.bay12games.com/dwarves/dev_now.html to see a full list of changes.
