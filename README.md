@@ -18,3 +18,4 @@ To use it correctly just choose one of available branches:
 |2015-12-14|I prepared script for adding all previous packages to this repo.|
 |2015-12-15|Runned script. Repo is initialized.|
 
+|2016-02-11|Added 42.06 versions.|
