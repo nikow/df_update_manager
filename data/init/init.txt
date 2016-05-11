@@ -1,0 +1,109 @@
+WARNING: Do NOT copy over the init.txt from an earlier version of DF.
+Always read the file carefully, including the comments.
+
+In general, you can copy savegames and tilesets from older DF
+versions, but you should not copy anything else.  You should not, under any
+circumstances, unpack a new DF on top of an older one.
+
+
+Change this to turn sound off.
+
+[SOUND:ON]
+
+The sound volume runs from 0 (off) to 255 (full).  You can set the volume from the ESC options menu as well.
+
+[VOLUME:255]
+
+Change this to skip the wonderful intro movies.
+
+[INTRO:ON]
+
+This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
+
+[WINDOWED:PROMPT]
+
+This is the size and font for windowed mode.  Changing to 800x600 and the 800x600 font might make you happier.
+
+[WINDOWEDX:640]
+[WINDOWEDY:300]
+[FONT:curses_640x300.bmp]
+
+Full screen info.
+
+[FULLSCREENX:800]
+[FULLSCREENY:600]
+[FULLFONT:curses_800x600.bmp]
+
+If this is set to YES, the tiles will not be stretched, but rather the game view will be centralized, surrounded by black space.  Tiles that are too large will always be compressed rather than running off the screen.
+
+[BLACK_SPACE:NO]
+
+Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of May 2016, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
+
+The legacy version only supports 24 bit BMP files, so any PNGs will have to be converted first.
+
+[GRAPHICS:NO]
+[GRAPHICS_WINDOWEDX:1280]
+[GRAPHICS_WINDOWEDY:400]
+[GRAPHICS_FONT:curses_square_16x16.bmp]
+[GRAPHICS_FULLSCREENX:1280]
+[GRAPHICS_FULLSCREENY:800]
+[GRAPHICS_FULLFONT:curses_square_16x16.bmp]
+[GRAPHICS_BLACK_SPACE:YES]
+
+This is the dimensions in tiles of the display grid.  Minimum x is 80.  Minimum y is 25.  Maximums are 200.  Make sure the window size or full screen resolution matches the grid/tile size if you don't want the display to be squashed or stretched.  The default windowed font has tiles that are 8x12 pixels, for instance, so for a 80x25 grid, you use a 640x300 window, and for a 125x50 grid, you'd use a 1000x600 window.  FULLGRID is used in full screen mode, whether graphics is on or not.
+
+[GRID:80:25]
+[FULLGRID:80:25]
+
+Change this to YES to only refresh portions of the screen that need to be refreshed.  This can have a significant impact on frame rate, especially for people that have slow frame rates on the title screen.  The number refers to how many frames it will redo a printed tile before skipping it, so you might try increasing it a bit.  PARTIAL_PRINT only works on certain systems, so you might have to disable it again if you notice your display isn't working properly.  Fixes are being investigated.
+
+[PARTIAL_PRINT:NO:2]
+
+Change this to YES to keep the DF window on top of your other windows.
+
+[TOPMOST:NO]
+
+Change this to YES if you want to see an FPS counter at the top left.
+
+[FPS:NO]
+
+Use this to set the maximum frame rate during play.  The movies are always capped at 100.  A frame in this case is not graphical but related to the movement speed of a creature.  A healthy, unencumbered dwarven peasant takes one step every 10 frames.
+
+[FPS_CAP:100]
+
+Use this to set the maximum graphical frame refresh rate during play.
+
+[G_FPS_CAP:50]
+
+This sets the applications vertical synchronization behavior.  Changing this to ON can impact your FPS if your G_FPS is high.  The other options are ON and DEFAULT.  DEFAULT uses whatever settings you have your system at in general.
+
+[VSYNC:OFF]
+
+Change this to LINEAR if you want the texture values to be averaged over the adjacent pixels.
+
+[TEXTURE_PARAM:NEAREST]
+
+Change this to make the dwarfort.exe process have a different priority.  From highest to lowest, the options are REALTIME, HIGH, ABOVE_NORMAL, NORMAL, BELOW_NORMAL and IDLE.
+
+[PRIORITY:NORMAL]
+
+Change this to NO if you don't want to have the mouse involved at all.
+
+[MOUSE:YES]
+
+Change this to YES if you'd like to use a BMP for the mouse cursor.  The image currently lags when the game is lagging however.
+
+[MOUSE_PICTURE:NO]
+
+This controls the number of milliseconds that must pass before a held key sends a repeat press to the game.  You might need to adjust this.
+
+[KEY_HOLD_MS:150]
+
+This controls the number of milliseconds that must pass before input works again after the view recenters on an event in dwarf mode.
+
+[RECENTER_INTERFACE_SHUTDOWN_MS:0]
+
+Change this to NO if you want to leave save uncompressed (you might want to do this if you are experience save corruption).
+
+[COMPRESSED_SAVES:YES]
