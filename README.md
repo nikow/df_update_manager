@@ -19,3 +19,4 @@ To use it correctly just choose one of available branches:
 |2015-12-15|Runned script. Repo is initialized.|
 
 |2016-02-11|Added 42.06 versions.|
+|2016-06-20|Added 43.04 versions to branches|
