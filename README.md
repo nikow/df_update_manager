@@ -20,3 +20,4 @@ To use it correctly just choose one of available branches:
 
 |2016-02-11|Added 42.06 versions.|
 |2016-06-20|Added 43.04 versions to branches|
+|2016-07-09|Updated all to 64b versions DF 43.05|
